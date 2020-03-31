@@ -6,15 +6,16 @@ Everything you will need to know about the product API should be available, prov
 ## Organization
 These are all of the ways in which the product API is organized.
 
+- **Team** - ([Union Fashion](https://union-fashion.postman.co/team)) - The team to which the product API belongs.
 - **Workspace** - [Products](https://union-fashion.postman.co/workspaces/2990215b-b3e0-4431-b2ca-80cf01274a25/apis) (Requires Access) - The Postman workspace for managing Products.
 - **Organization** - [Union Fashion](https://github.com/union-fashion) - The GitHub organization where the product API belongs.
 - **Repository** - [Union Fashion / products](https://github.com/union-fashion/products) - The GitHub repository dedicated to the product API.
 - **API** - [Products](https://union-fashion.postman.co/apis/b06cd7bd-51a8-40df-a036-d5cec42700c6?version=e9d51adf-9738-4e58-9c76-b0d11c196d1d) (Requires Access) - The machine readable contract for the API.
-- **Collections**
+- **Collections** - Derivatives of the product API contract.
     - [**Working**](https://union-fashion.postman.co/collections/10394726-5d172ec2-d989-4f99-beb1-8ad17294af21) - The collection meant for regular usage and playing around.
     - [**Documentation**](https://union-fashion.postman.co/collections/10394726-d45351d9-a093-4a70-9ba1-e28a4c8fb587) - The collection dedicated to publishing docs and mocks.
     - [**Contract Testing**](https://union-fashion.postman.co/collections/10394726-987d1a4c-cd19-42bf-8736-786a64a09e1f) - The collection that is just for testing the contract.
-- Environments
+- **Environments** - Postman environments for managing the products API.
     - [**Development - Mock**](https://union-fashion.postman.co/environments/10394726-c10b73a0-e2d0-4de7-86b7-5d63e6cb6e40?workspace=2990215b-b3e0-4431-b2ca-80cf01274a25) - The environment for applying against APIs being developed using a mock environment.
 
 ## Mock Server(s)
