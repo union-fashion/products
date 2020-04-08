@@ -6,7 +6,7 @@ info:
 servers:
 - url: '{{baseUrl}}'
 paths:
-  /product:
+  /products:
     post:
       summary: Add Product
       description: Creates a new product.
