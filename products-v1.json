@@ -10,7 +10,7 @@ paths:
     post:
       summary: Add Product
       description: Creates a new product.
-      operationId: AddProduct
+      operationId: addProduct
       tags:
         - Products        
       requestBody:
