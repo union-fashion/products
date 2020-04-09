@@ -125,7 +125,7 @@ paths:
       - Products
       summary: Delete
       description: 'Delete an individual product.'
-      operationId: Delete
+      operationId: deleteProduct
       parameters:
         - name: productId
           in: path
