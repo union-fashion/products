@@ -94,7 +94,7 @@ paths:
     put:
       summary: Update
       description: Supports either full or partial updates.
-      operationId: Update
+      operationId: updateProduct
       tags:
       - Products      
       parameters:
