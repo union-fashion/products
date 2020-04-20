@@ -45,3 +45,8 @@ These are the areas in which the product API is being tested.
 
 - Contract
   - [Monitor](https://union-fashion.postman.co/monitors/1ea72f63-0700-4370-a289-9a749bc9dd81?result=success&result=failure&result=error&result=abort&trigger=api&trigger=schedule&trigger=webhook&workspace=2990215b-b3e0-4431-b2ca-80cf01274a25) - The daily monitor for product API contract.
+
+## Standards
+These are the standards used as part of the delivery of this API.
+
+- [Schema.org](https://schema.org/Product) - The Schema.org products object was used as the base schema for this API.
