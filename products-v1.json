@@ -1,7 +1,7 @@
 openapi: 3.0.0
 info:
   title: Products
-  description: DO IT!
+  description: CHANGE
   version: '1.0'
 servers:
   - url: '{{baseUrl}}'
