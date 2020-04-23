@@ -191,7 +191,7 @@ paths:
                 $ref: '#/components/schemas/Resources'
               example: null
       deprecated: false
-  '/coupons/{couponId}':
+  /coupon/:
     get:
       summary: Get COUPON
       description: Retrieves a single coupon.
