@@ -191,88 +191,13 @@ paths:
                 $ref: '#/components/schemas/Resources'
               example: null
       deprecated: false
-  /coupon/:
-    get:
-      summary: Get COUPON
-      description: Retrieves a single coupon.
-      operationId: getResource
-      tags:
-        - COUPONS
-      parameters:
-        - name: resourceId
-          in: path
-          description: The resource ID to retrieve.
-          required: true
-          schema:
-            type: string
-            example: null
-      responses:
-        '200':
-          description: Single resource.
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/Resource'
-              example: null
-      deprecated: false
-      security:
-        - api_key: []
-    put:
-      summary: Update
-      description: Fully updates an individual resource.
-      operationId: updateResource
-      tags:
-        - Resources
-      parameters:
-        - name: resourceId
-          in: path
-          description: The resource ID to retrieve.
-          required: true
-          schema:
-            type: string
-            example: null
-      security:
-        - api_key: []
-      requestBody:
-        description: A resource object.
-        content:
-          application/json:
-            schema:
-              $ref: '#/components/schemas/Resource'
-            example:
-              unitSalePrice: 29.99
-        required: true
-      responses:
-        '204':
-          description: Successfully updated.
-      deprecated: false
-    delete:
-      tags:
-        - Resources
-      summary: Delete
-      description: Delete an individual resource.
-      operationId: deleteResource
-      parameters:
-        - name: resourceId
-          in: path
-          description: The resource ID to retrieve.
-          required: true
-          schema:
-            type: string
-            example: null
-      security:
-        - api_key: []
-      responses:
-        '204':
-          description: Resource deleted.
-      deprecated: false
   '/coupons/{couponId}/':
     get:
-      summary: Get COUPON
+      summary: Get C
       description: Retrieves a single coupon.
       operationId: getResource
       tags:
-        - COUPONS
+        - C
       parameters:
         - name: resourceId
           in: path
