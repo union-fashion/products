@@ -1,10 +1,10 @@
 openapi: 3.0.0
 info:
   title: Products
-  description: 'This an API for managing products that exist in the Union Fashion catalog, allowing any desktop, web, mobile, or device application to integrate with the catalog.'
+  description: CHANGE
   version: '1.0'
 servers:
-- url: '{{baseUrl}}'
+  - url: '{{baseUrl}}'
 paths:
   /products:
     post:
@@ -12,9 +12,9 @@ paths:
       description: Creates a new product.
       operationId: addProduct
       tags:
-        - Products        
+        - Products
       requestBody:
-        description: 'A product schema.'
+        description: A product schema.
         content:
           application/json:
             schema:
@@ -27,10 +27,10 @@ paths:
               unitPrice: 49.99
               unitSalePrice: 29.99
       security:
-      - api_key: []              
+        - api_key: []
       responses:
-        201:
-          description: 'Successful creation of product.'
+        '201':
+          description: Successful creation of product.
           content:
             application/json:
               schema:
@@ -43,34 +43,34 @@ paths:
       description: Pulls a list of all product
       operationId: getProducts
       tags:
-        - Products       
+        - Products
       parameters:
-      - name: query
-        in: query
-        description: 'A query to search for products by.'
-        required: true
-        schema:
-          type: string
-          example: 'shirts'
+        - name: query
+          in: query
+          description: A query to search for products by.
+          required: true
+          schema:
+            type: string
+            example: shirts
       security:
-      - api_key: []               
+        - api_key: []
       responses:
-        200:
-          description: 'List of products.'
+        '200':
+          description: List of products.
           content:
             application/json:
               schema:
                 $ref: '#/components/schemas/Products'
               example:
                 status: success
-      deprecated: false      
+      deprecated: false
   '/products/{productId}':
     get:
       summary: Get Product
       description: Retrieves a single product.
       operationId: getProduct
       tags:
-      - Products      
+        - Products
       parameters:
         - name: productId
           in: path
@@ -80,23 +80,23 @@ paths:
             type: string
             example: product-one
       responses:
-        200:
-          description: 'Single product.'
+        '200':
+          description: Single product.
           content:
             application/json:
               schema:
                 $ref: '#/components/schemas/Product'
               example:
                 status: success
-      deprecated: false  
+      deprecated: false
       security:
-      - api_key: []       
+        - api_key: []
     put:
       summary: Update
       description: Supports either full or partial updates.
       operationId: updateProduct
       tags:
-      - Products      
+        - Products
       parameters:
         - name: productId
           in: path
@@ -106,9 +106,9 @@ paths:
             type: string
             example: product-one
       security:
-      - api_key: []               
+        - api_key: []
       requestBody:
-        description: 'A product object.'
+        description: A product object.
         content:
           application/json:
             schema:
@@ -117,14 +117,14 @@ paths:
               unitSalePrice: 29.99
         required: true
       responses:
-        204:
-          description: 'Successfully updated.'
+        '204':
+          description: Successfully updated.
       deprecated: false
     delete:
       tags:
-      - Products
+        - Products
       summary: Delete
-      description: 'Delete an individual product.'
+      description: Delete an individual product.
       operationId: deleteProduct
       parameters:
         - name: productId
@@ -135,27 +135,27 @@ paths:
             type: string
             example: product-one
       security:
-      - api_key: []               
+        - api_key: []
       responses:
-        204:
-          description: 'Product deleted.'
+        '204':
+          description: Product deleted.
       deprecated: false
 components:
   securitySchemes:
     api_key:
-      type: "apiKey"
-      name: "x-api-key"
-      in: "header" 
+      type: apiKey
+      name: x-api-key
+      in: header
   schemas:
     Products:
       type: array
       items:
-        $ref: "#/components/schemas/Product"  
+        $ref: '#/components/schemas/Product'
     Product:
       title: Product
       required:
-      - identifier
-      - name
+        - identifier
+        - name
       type: object
       properties:
         identifier:
@@ -175,25 +175,25 @@ components:
         color:
           type: string
         logo:
-          type: string  
+          type: string
         manufacturer:
-          type: string  
+          type: string
         material:
-          type: string 
+          type: string
         model:
-          type: string 
+          type: string
         releaseDate:
-          type: string 
+          type: string
         sku:
-          type: string  
+          type: string
         width:
-          type: string  
+          type: string
         weight:
-          type: string    
+          type: string
         depth:
-          type: string          
+          type: string
         height:
-          type: string           
+          type: string
       example:
         id: XYZ-JEAN-123
         category: Jeans
@@ -203,5 +203,5 @@ components:
         unitPrice: 49.99
         unitSalePrice: 29.99
 tags:
-- name: Products
-  description: 'A product object.'
+  - name: Products
+    description: A product object.
