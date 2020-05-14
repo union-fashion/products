@@ -44,9 +44,16 @@ These are the areas of communication for the product API.
 These are the areas in which the product API is being tested.
 
 - Contract
-  - [Monitor](https://union-fashion.postman.co/monitors/1ea72f63-0700-4370-a289-9a749bc9dd81?result=success&result=failure&result=error&result=abort&trigger=api&trigger=schedule&trigger=webhook&workspace=2990215b-b3e0-4431-b2ca-80cf01274a25) - The daily monitor for product API contract.
+  - [Monitor](https://union-fashion.postman.co/monitors/1ea72f63-0700-4370-a289-9a749bc9dd81?) - The daily monitor for product API contract.
+- Performance
+  - [Monitor](https://union-fashion.postman.co/monitors/1ea960f3-5cb4-4050-a0fe-31e0dde34033) - The daily monitor for product API contract.
 
 ## Standards
 These are the standards used as part of the delivery of this API.
 
 - [Schema.org](https://schema.org/Product) - The Schema.org products object was used as the base schema for this API.
+
+## Discovery
+Here is the discovery index for this entire API and it's life cycle.
+
+- [APIs.json](https://raw.githubusercontent.com/union-fashion/products/master/apis.json) - This provides an [APIs.json](http://apisjson.org/) index for this entire API.
