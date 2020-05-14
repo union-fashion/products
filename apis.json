@@ -1,0 +1,130 @@
+{
+   "name": "Products",
+   "description": "This is the API for the Union Fashion product catalog.",
+   "image": "http://union.fashion/images/products.png",
+   "tags": [
+      "Products"
+   ],
+   "created": "2020-05-13",
+   "modified": "2019-05-13",
+   "url": "https://raw.githubusercontent.com/union-fashion/products/master/apis.json",
+   "specificationVersion": "0.14",
+   "apis": [
+      {
+         "name": "Products",
+         "description": null,
+         "image": "http://union.fashion/images/products.png",
+         "humanURL": "http://developer.union.fashion/",
+         "baseURL": "http://api.union.fashion/",
+         "x-mockUrl": "https://f7785723-c31c-4944-baf1-08c58f186515.mock.pstmn.io",
+         "tags": [
+            "Products",
+            "Commerce",
+            "Catalog"
+         ],
+         "properties": [
+            {
+               "type": "x-postman-team",
+               "x-name": "Team",
+               "url": "https://union-fashion.postman.co/team"
+            },
+            {
+               "type": "x-postman-workspace",
+               "x-name": "Workspace",
+               "url": "https://union-fashion.postman.co/workspaces/2990215b-b3e0-4431-b2ca-80cf01274a25/apis"
+            },
+            {
+               "type": "x-github-organization",
+               "x-name": "Organization",
+               "url": "https://github.com/union-fashion"
+            },
+            {
+               "type": "x-github-repository",
+               "x-name": "Repository",
+               "url": "https://github.com/union-fashion/products"
+            },
+            {
+               "type": "x-postman-builder",
+               "x-name": "Builder",
+               "url": "https://union-fashion.postman.co/apis/b06cd7bd-51a8-40df-a036-d5cec42700c6?version=e9d51adf-9738-4e58-9c76-b0d11c196d1d"
+            },
+            {
+               "type": "x-openapi",
+               "x-name": "OpenAPI 3.0 Definition",
+               "url": "https://raw.githubusercontent.com/union-fashion/products/master/products-v1.json"
+            },
+            {
+               "type": "x-postman-collection",
+               "x-name": "Collection",
+               "url": "https://www.getpostman.com/collections/48cbaf14a09dce8175bd"
+            },
+            {
+               "type": "x-postman-environment",
+               "x-name": "Environment",
+               "url": "https://raw.githubusercontent.com/union-fashion/products/master/products-environment-v1.json"
+            },
+            {
+               "type": "x-documentation",
+               "x-name": "Documentation",
+               "url": "https://documenter.getpostman.com/view/10394726/SzS2xojt?version=latest"
+            },
+            {
+               "type": "x-contract-testing-monitor",
+               "x-name": "Contract Testing Monitor",
+               "url": "https://union-fashion.postman.co/monitors/1ea72f63-0700-4370-a289-9a749bc9dd81"
+            },
+            {
+               "type": "x-performance-testing-monitor",
+               "x-name": "Performance Testing Monitor",
+               "url": "https://union-fashion.postman.co/monitors/1ea72f63-0700-4370-a289-9a749bc9dd81"
+            },
+            {
+               "type": "x-postman-history",
+               "x-name": "History",
+               "url": "https://union-fashion.postman.co/workspaces/2990215b-b3e0-4431-b2ca-80cf01274a25/history"
+            },
+            {
+               "type": "x-postman-activity",
+               "x-name": "Activity",
+               "url": "https://union-fashion.postman.co/workspaces/2990215b-b3e0-4431-b2ca-80cf01274a25/activity"
+            },
+            {
+               "type": "x-schema-org-object",
+               "x-name": "Schema.org Object",
+               "url": "https://schema.org/Product"
+            },
+            {
+               "type": "x-support",
+               "x-name": "Support",
+               "url": "https://github.com/union-fashion/products/issues"
+            }
+         ]
+      }
+   ],
+   "include": [],
+   "x-common": [
+      {
+         "type": "website",
+         "name": "Website",
+         "url": "http://union.fashion"
+      },
+      {
+         "type": "twitter",
+         "name": "Twitter",
+         "url": "https://twitter.com/unionfashionapi"
+      },
+      {
+         "type": "github-organization",
+         "name": "GitHub Organization",
+         "url": "http://union.fashion"
+      }
+   ],
+   "maintainers": [
+      {
+         "FN": "Kin",
+         "x-twitter": "kinlane",
+         "x-github": "kinlane",
+         "email": "mail@union.fashion"
+      }
+   ]
+}

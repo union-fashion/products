@@ -1,0 +1,24 @@
+{
+	"id": "8118ca11-9f2f-483f-922c-d4d78bc08613",
+	"name": "PROD - Prod (P)",
+	"values": [
+		{
+			"key": "baseUrl",
+			"value": "https://api.union.fashion",
+			"enabled": true
+		},
+		{
+			"key": "api-key",
+			"value": "<your API key>",
+			"enabled": true
+		},
+		{
+			"key": "product_schema",
+			"value": "{\n  \"$id\": \"https://union.fashion/schema/product.schema.json\",\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"title\": \"Product\",\n  \"required\": [\n    \"identifier\",\n    \"name\"\n  ],\n  \"type\": \"object\",\n  \"properties\": {\n    \"identifier\": {\n      \"type\": \"string\"\n    },\n    \"name\": {\n      \"type\": \"string\"\n    },\n    \"description\": {\n      \"type\": \"string\"\n    },\n    \"image\": {\n      \"type\": \"string\"\n    },\n    \"url\": {\n      \"type\": \"string\"\n    },\n    \"brand\": {\n      \"type\": \"string\"\n    },\n    \"category\": {\n      \"type\": \"string\"\n    },\n    \"color\": {\n      \"type\": \"string\"\n    },\n    \"logo\": {\n      \"type\": \"string\"\n    },\n    \"manufacturer\": {\n      \"type\": \"string\"\n    },\n    \"material\": {\n      \"type\": \"string\"\n    },\n    \"model\": {\n      \"type\": \"string\"\n    },\n    \"releaseDate\": {\n      \"type\": \"string\"\n    },\n    \"sku\": {\n      \"type\": \"string\"\n    },\n    \"width\": {\n      \"type\": \"string\"\n    },\n    \"weight\": {\n      \"type\": \"string\"\n    },\n    \"depth\": {\n      \"type\": \"string\"\n    },\n    \"height\": {\n      \"type\": \"string\"\n    }\n  },\n  \"example\": {\n    \"id\": \"XYZ-JEAN-123\",\n    \"category\": \"Jeans\",\n    \"brand\": \"Union\",\n    \"color\": \"black\",\n    \"gender\": \"m\",\n    \"unitPrice\": 49.99,\n    \"unitSalePrice\": 29.99\n  }\n}",
+			"enabled": true
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2020-05-14T18:32:49.080Z",
+	"_postman_exported_using": "Postman/7.24.0"
+}
