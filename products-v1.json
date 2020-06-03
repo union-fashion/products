@@ -8,8 +8,8 @@ servers:
 paths:
   /products:
     post:
-      summary: Add Product
-      description: Creates a new product.
+      summary: Add Productz
+      description: Creates a new productz.
       operationId: addProduct
       tags:
         - Products
