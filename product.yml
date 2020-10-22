@@ -6,6 +6,12 @@ info:
 servers:
   - url: '{{baseUrl}}'
 paths:
+  /productss:
+    post:
+      summary: Add Product  
+      responses:
+        '201':
+          description: Successful creation of product.        
   /products:
     post:
       summary: Add Product
